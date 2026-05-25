@@ -1,5 +1,7 @@
 # On-device-authentication
 
+
+
 ## Overview
 
 This channel demonstrates how to implement on-device signups and sign-ins and grant customers access to content.  It shows how to use the [**ChannelStore node**](https://developer.roku.com/docs/references/scenegraph/control-nodes/channelstore.md) and [**Roku Web Service API**](https://developer.roku.com/docs/developer-program/roku-pay/roku-web-service.md) to check for an active Roku subscription, and how to use the [**roRegistrySection()**](https://developer.roku.com/docs/references/brightscript/components/roregistrysection) object and [**ChannelStore node**](https://developer.roku.com/docs/references/scenegraph/control-nodes/channelstore.md) to check for access tokens in the device registry and Roku Cloud, respectively. If the customer does not have an active subscription or their subscription cannot be validated (because it was purchased on a different platform), the sample shows how to use the Roku Pay [Request for Information (RFI) screen](https://developer.roku.com/docs/references/scenegraph/control-nodes/channelstore.md#getuserdata) to sign customers up for a new Roku subscription and sign them in to their existing subscription.
